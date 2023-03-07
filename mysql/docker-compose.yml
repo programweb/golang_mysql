@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+   database:
+      image: mysql
+      container_name: mysql
+      ports:
+         - "33061:3306"
+      command: --init-file /data/application/init.sql
+      volumes:
+         - ./init.sql:/data/application/init.sql
+      restart: always
+      environment:
+         MYSQL_ROOT_USER: root
+         MYSQL_ROOT_PASSWORD: ABC
+         MYSQL_DATABASE: healthdata
+         MYSQL_USER: user
+         MYSQL_PASSWORD: ABC
+      networks: # z added this and all below; not working
+         network:
+            ipv4_address: 172.20.0.2
+
+networks:
+   network: #will be prefixed with 'parent_dir_name_' so for me, it will be 'mysql_network'
+      ipam:
+         config:
+            - subnet: 172.20.0.0/16
