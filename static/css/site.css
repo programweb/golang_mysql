@@ -1,0 +1,16 @@
+body{margin:0;background-color:#000000;}
+#main{margin:0;background-color: #ffffff;padding:2em;
+    border-left:#909090 3em solid;border-right:#909090 3em solid;}
+h2{color:#636364e3;margin-top:0;}
+h3{color:lightslategray;}
+#menu a{text-decoration:none;border:#909090 1px solid;padding:3px 5px;
+    width:133px;display:inline-block;text-align:center;color:#000000;
+    background-color: lightgrey;}
+#main table{border-collapse: collapse;}
+#main table thead{background-color: #57d0e2;color:#040404;text-align:center;
+    font-weight:700;font-size:large;}
+#main table tbody td{padding:0.5em 3px;}
+form div{margin-bottom:1em;}
+form label{display:inline-block;width:121px;}
+#footimage{margin-top:1em;background-color:#000000;text-align:center;}
+#footimage img{height:333px;}

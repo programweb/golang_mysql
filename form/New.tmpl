@@ -1,0 +1,12 @@
+{{ define "New" }}
+{{ template "Header" }}
+{{ template "Menu" }} 
+<h3>New Short Name and Name</h3>  
+<form method="POST" action="insert">
+<div><label> Key (acause) </label><input type="text" name="key" /></div>
+<div><label> Short Name </label><input type="text" name="short" /></div>
+<div><label> Name </label><input type="text" name="name" /></div>
+<input type="submit" value="Add New Healthdata" />
+</form>
+{{ template "Footer" }}
+{{ end }}

@@ -1,0 +1,8 @@
+{{ define "Show" }}
+{{ template "Header" }}
+{{ template "Menu"  }}
+<h3>Row ID: {{ .Id }} </h3>
+<p>Short Name: {{ .Short }}</p>
+<p>Name:  {{ .Name }}</p><br /> <a href="/edit?id={{ .Id }}">Edit Data</a></p>
+{{ template "Footer" }}
+{{ end }}
