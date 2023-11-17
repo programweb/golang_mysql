@@ -6,7 +6,9 @@ MySQL in an independent Docker container.
 
 Healthdata (diseases and other causes of health issues)
 Thousands of diseases shown.
-![read_all](https://github.com/programweb/golang_mysql/assets/12736699/c6eac8b1-ac44-4d79-8bd7-3e2f9b626ecd)
+&nbsp;
+
+![aaa](https://github.com/programweb/golang_mysql/assets/12736699/d872d25f-0c94-479e-9dee-02aae3fabe70)
 &nbsp;
 
 &nbsp;
@@ -14,14 +16,16 @@ Thousands of diseases shown.
 Create Page
 &nbsp;
  
-![create](https://github.com/programweb/golang_mysql/assets/12736699/82029652-757c-426c-8fb3-bcc928ebce5a)
+![bbb](https://github.com/programweb/golang_mysql/assets/12736699/fe33afc2-fc88-43e4-a4ec-56990212ed41)
+
 &nbsp;
 
 &nbsp;
  
 Update Page
 &nbsp;
- 
-![update](https://github.com/programweb/golang_mysql/assets/12736699/fafb6d4b-87cc-425b-9f90-ea9f1307c7d1)
+
+![ccc](https://github.com/programweb/golang_mysql/assets/12736699/c81f372e-1e9f-4fd3-ba5b-680486d86095)
+
 
 
